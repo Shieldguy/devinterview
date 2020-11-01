@@ -30,7 +30,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 - 두개로 나눴단 것은 전체 합의 1/2 의 값을 찾아내면 됨
 - 합의 값을 기준으로 backtracking 검색을 통해 전체 검색
   - 단, 전체 검색시 timeout이 발생되므로 monoization 을 통해 이미 연산된 곳은 캐쉬 처리
-![1](1.png)
+![2](2.png)
 
 ## Code 
 ```java
